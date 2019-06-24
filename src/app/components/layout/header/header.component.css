@@ -1,0 +1,12 @@
+
+.navbar-custom {
+    background-color: #0e5fd8 !important;
+    color: #fff;
+    text-align: left;
+    padding: 10px;    
+  }
+  
+  .navbar-custom a {
+    color: #fff;
+    text-decoration: none;
+  }

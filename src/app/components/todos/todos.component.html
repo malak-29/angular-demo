@@ -1,0 +1,9 @@
+<div class="container card card-primary" style="width: 30rem;">
+    <div class="container card-heading">ToDo</div>
+    <div class="card-body">
+
+        <div><app-add-todo ></app-add-todo></div>
+        <app-todo-item *ngFor="let todo of todos"[todo]="todo">
+        </app-todo-item>
+    </div>
+  </div>
